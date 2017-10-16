@@ -26,12 +26,29 @@
     </div>
   </div>
 
+  {% if theme.comment_gitment.enable %}
+    <div id="gitment-container"></div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script>
+      var gitment = new Gitment({
+        id: {{ page.title }}, // 可选。默认为 location.href
+        owner: 'sunwaylive',
+        repo: 'sunwayliving.github.io',
+        oauth: {
+          client_id: '7eaf27b32e4026c75ff3',
+          client_secret: 'e3b9dc1359918831d4e2ce4ffa063e4f7a04554e',
+        },
+      })
+    gitment.render('gitment-container')
+    </script>
+  {% endif %}
+
 {% endblock %}
 
 {% block sidebar %}
   {{ sidebar_template.render(true) }}
 {% endblock %}
-
 
 {% block script_extra %}
   {% include '_scripts/pages/post-details.swig' %}

@@ -439,3 +439,6 @@ version: 5.0.2
 
 # 在source/js/src/algolia-search.js中使用到，不设置会导致 41行生成的超链接错误
 root: /
+
+comment_gitment:
+  enable: true
