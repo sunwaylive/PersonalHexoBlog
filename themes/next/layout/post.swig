@@ -32,7 +32,7 @@
     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     <script>
       var gitment = new Gitment({
-        id: {{ page.title }}, // 可选。默认为 location.href
+        id: location.href, // 可选。默认为 location.href
         owner: 'sunwaylive',
         repo: 'sunwayliving.github.io',
         oauth: {
