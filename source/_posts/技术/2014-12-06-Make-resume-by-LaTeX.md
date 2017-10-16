@@ -13,6 +13,8 @@ description:
 ### 简单介绍ShareLatex
 ShareLatex是一个在线编辑Latex的网站，代码开源在Github上。你可以使用PC端的Latex，但是如果你无法遇到各种各样的编译问题，觉得麻烦的时候，[ShareLaTeX](https://www.sharelatex.com/)绝对是你的福音。
 
+<!-- more -->
+
 ShareLatex提供`Resume`,`Cover Letter`,`Journal Article`,`Presentation`,`Thesis`,`Bibliographies`等不同分类的多种模板。最重要的一点事，只需要确定Latex语法无误，再也不需担心什么编译环境、文件缺失等乱七八糟的问题。
 
 ### 使用步骤

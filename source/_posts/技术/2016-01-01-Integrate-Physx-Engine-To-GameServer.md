@@ -16,16 +16,7 @@ PhysX支持平台和引擎如下：
 
 本文的**最终目的**：
 >当美术在Unity中制作好游戏场景后(为gameobject拖好collider)，通过我们写的工具导出这份场景的collider配置，在服务器端能够生成一份一模一样的物理世界，从而由权威服务器去计算物理，诸如子弹有没有击中玩家等等。
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 336*280 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:336px;height:280px"
-     data-ad-client="ca-pub-1116434893916666"
-     data-ad-slot="5557981430"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<!-- more -->
 
 ## 1. 安装PhysX
 ### 1.1 获取GitHub上PhysX源代码的权限
